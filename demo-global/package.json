@@ -1,0 +1,17 @@
+{
+  "name": "demo-global",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^19.0.2",
+    "jest-babel": "^1.0.1"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+  }
+}
